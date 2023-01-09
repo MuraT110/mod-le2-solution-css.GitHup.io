@@ -1,0 +1,98 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #1d4657;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+header {
+    background-color: #4384b1;
+    width: 100%;
+    display: inline-block;
+}
+.Our menu {
+    float: right;
+}
+. Our menu li {
+    display: inline-block;
+}
+.Our menu li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 14px 20px;
+    display: inline-block;
+}
+.Our menu li a:hover {
+    background-color: #5fabe0;
+}
+.Our menu{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+}
+.logo:hover {
+    background-color: #5fabe0;
+}
+main {
+    padding: 50px 25;
+    min-height: 800px;
+    background-color: green;
+}
+h1 {
+    text-align: center;
+    font-size: 46px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+h2 {
+    margin-top: 18px;
+}
+p {
+    margin-top: 18px;
+}
+.foto {
+    float: left;
+    margin: 0px 18px 18px 0;
+    padding: 5px;
+    background: #f7f5ed;
+    border: 2px solid #cccabc;
+    border-radius: 3px;
+    width: calc(100% - 15px);
+    max-width: 600px;
+}
+footer {
+    width: 100%;
+    display: inline-block;
+}
+footer .menu {
+    float: none;
+    text-align: center;
+    margin-top: 15px;
+}
+footer .menu li a {
+    padding: 8px;
+    margin: 8px;
+}
+footer .menu li a:hover {
+    background-color: #1d4657;
+    text-decoration: underline;
+}
+.copyright {
+    font-size: 0px;
+    color: #c5def4;
+    text-align: center;
+    margin: 6px 0;
+}
